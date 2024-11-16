@@ -9,7 +9,6 @@
    const [search, setSearch] = useState("nature");
    const [loader, setLoader] = useState(true);
    const [saved, setSaved] = useState([]);
-
    const API_KEY = "32RbjC9489RT7tkziFOgH7wbZStsOVRHrO5zPRQJIDuhrndl03Opu1DE";
 
    useEffect(() => {
